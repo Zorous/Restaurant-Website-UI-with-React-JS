@@ -5,23 +5,37 @@ import MostPopularItem from "../components/Menu/MostPopularItem";
 function Menu() {
   return (
     <div>
+    
+    <div class="container-xxl py-5 bg-dark hero-header mb-5">
+    <div class="container text-center my-5 pt-5 pb-4">
+        <h1 class="display-3 text-white mb-3 animated slideInDown">Food Menu</h1>
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb justify-content-center text-uppercase">
+                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                <li class="breadcrumb-item"><a href="#">Pages</a></li>
+                <li class="breadcrumb-item text-white active" aria-current="page">Menu</li>
+            </ol>
+        </nav>
+    </div>
+</div>
       <div class="container-xxl py-5">
+      
         <div class="container">
           <div class="row">
             <MenuItem
               category="pizza"
               image="https://imgs.search.brave.com/NOt9Xc6ovqZUjiFCt-t585UbfLEyxgkpCBU8M_695gs/rs:fit:711:225:1/g:ce/aHR0cHM6Ly90c2Uy/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC53/QVBqQWRnbHluMG1l/LXRJa2szWGpRSGFF/OCZwaWQ9QXBp"
-              url="/pizza"
+              link="/menu/pizza"
             />
             <MenuItem
               category="Burgers & Sandwitches"
               image="https://foodsguy.com/wp-content/uploads/2021/04/burger-vs-sandwhich.jpg"
-              url="/burgers"
+              link="/menu/burgers"
             />
             <MenuItem
               category="Boissons & Sauses"
               image="https://imgs.search.brave.com/PzaHqlcl_YbtSAK2sfhjkYQ3Gp-G18CaMrYNJy5ACCY/rs:fit:713:225:1/g:ce/aHR0cHM6Ly90c2Ux/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC53/THk0SFhYZW1va2RC/N0IwTlhsVEVBSGFF/NyZwaWQ9QXBp"
-              url="/boissons"
+              link="/menu/boissons"
             />
           </div>
         </div>
@@ -80,6 +94,18 @@ function Menu() {
                   <MostPopularItem
                     title="Chicken Burger"
                     image="img/menu-1.jpg"
+                    price="$115"
+                    description="Ipsum ipsum clita erat amet dolor justo diam"
+                  />
+                  <MostPopularItem
+                    title="Chicken Burger"
+                    image="img/menu-1.jpg"
+                    price="$115"
+                    description="Ipsum ipsum clita erat amet dolor justo diam"
+                  />
+                  <MostPopularItem
+                    title="Chicken Burger"
+                    image="img/menu-2.jpg"
                     price="$115"
                     description="Ipsum ipsum clita erat amet dolor justo diam"
                   />
