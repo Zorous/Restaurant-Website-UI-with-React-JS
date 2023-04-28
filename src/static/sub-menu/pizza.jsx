@@ -33,8 +33,8 @@ function Pizza() {
              >
                <i class="fa fa-coffee fa-2x text-primary"></i>
                <div class="ps-3">
-                 <small class="text-body">Popular</small>
-                 <h6 class="mt-n1 mb-0">pizzas crème fraiche</h6>
+                 <small class="text-body">avec</small>
+                 <h6 class="mt-n1 mb-0">crème fraiche</h6>
                </div>
              </a>
            </li>
@@ -46,21 +46,8 @@ function Pizza() {
              >
                <i class="fa fa-hamburger fa-2x text-primary"></i>
                <div class="ps-3">
-                 <small class="text-body">Special</small>
-                 <h6 class="mt-n1 mb-0">Nos pizzas sauce tomate</h6>
-               </div>
-             </a>
-           </li>
-           <li class="nav-item">
-             <a
-               class="d-flex align-items-center text-start mx-3 me-0 pb-3"
-               data-bs-toggle="pill"
-               href="#tab-3"
-             >
-               <i class="fa fa-utensils fa-2x text-primary"></i>
-               <div class="ps-3">
-                 <small class="text-body">Lovely</small>
-                 <h6 class="mt-n1 mb-0">Dinner</h6>
+                 <small class="text-body">avec</small>
+                 <h6 class="mt-n1 mb-0">sauce tomate</h6>
                </div>
              </a>
            </li>
@@ -129,16 +116,6 @@ function Pizza() {
                <SubMenuItem
                  title="Chicken Burger"
                  image="img/menu-5.jpg"
-                 price="$115"
-                 description="Ipsum ipsum clita erat amet dolor justo diam"
-               />
-             </div>
-           </div>
-           <div id="tab-3" class="tab-pane fade show p-0">
-             <div class="row g-4">
-               <SubMenuItem
-                 title="Chicken Burger"
-                 image="img/menu-4.jpg"
                  price="$115"
                  description="Ipsum ipsum clita erat amet dolor justo diam"
                />
