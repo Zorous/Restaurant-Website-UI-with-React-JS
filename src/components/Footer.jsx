@@ -36,8 +36,7 @@ function Footer() {
               <p class="mb-2">
                 <i class="fa fa-map-marker-alt me-3"></i>
                 <span class="logo-style">Maison Orientale</span>
-                KEBAB - LILLE, Place République - Beaux Arts 7 Rue Léon Gambetta
-                59000 LILLE France
+
               </p>
               <p class="mb-2">
                 <i class="fa fa-phone-alt me-3"></i>04 69 70 77 35

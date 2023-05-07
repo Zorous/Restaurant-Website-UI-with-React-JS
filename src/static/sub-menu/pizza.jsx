@@ -31,7 +31,6 @@ function Pizza() {
                data-bs-toggle="pill"
                href="#tab-1"
              >
-               <i class="fa fa-coffee fa-2x text-primary"></i>
                <div class="ps-3">
                  <small class="text-body">avec</small>
                  <h6 class="mt-n1 mb-0">crème fraiche</h6>
@@ -44,7 +43,6 @@ function Pizza() {
                data-bs-toggle="pill"
                href="#tab-2"
              >
-               <i class="fa fa-hamburger fa-2x text-primary"></i>
                <div class="ps-3">
                  <small class="text-body">avec</small>
                  <h6 class="mt-n1 mb-0">sauce tomate</h6>
@@ -56,39 +54,15 @@ function Pizza() {
            <div id="tab-1" class="tab-pane fade show p-0 active">
              <div class="row g-4">
                <SubMenuItem
-                 title="Chicken Burger"
-                 image="img/menu-1.jpg"
+                 title="Pizza"
+                 image="/images/sous-menu/pizza1.jpeg"
                  price="$115"
                  description="Ipsum ipsum clita erat amet dolor justo diam"
                />
                <SubMenuItem
                  title="Chicken Burger"
-                 image="img/menu-1.jpg"
-                 price="$115"
-                 description="Ipsum ipsum clita erat amet dolor justo diam"
-               />
-               <SubMenuItem
-                 title="Chicken Burger"
-                 image="img/menu-2.jpg"
-                 price="$115"
-                 description="Ipsum ipsum clita erat amet dolor justo diam"
-               />
-               <SubMenuItem
-                 title="Chicken Burger"
-                 image="img/menu-2.jpg"
-                 price="$115"
-                 description="Ipsum ipsum clita erat amet dolor justo diam"
-               />
-               <SubMenuItem
-                 title="Chicken Burger"
-                 image="img/menu-3.jpg"
-                 price="$115"
-                 description="Ipsum ipsum clita erat amet dolor justo diam"
-               />
-               <SubMenuItem
-                 title="Chicken Burger"
-                 image="img/menu-4.jpg"
-                 price="$115"
+                 image="/images/sous-menu/pizza2.jpeg"
+                  price="$115"
                  description="Ipsum ipsum clita erat amet dolor justo diam"
                />
              </div>
@@ -123,7 +97,7 @@ function Pizza() {
            </div>
          </div>
      </div>
-   </div>
+     </div>
     </div>
   )
 }
