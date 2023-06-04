@@ -1,6 +1,6 @@
 /********** Template CSS **********/
 :root {
-    --primary: #ff6c00;
+    --primary: #f5b500;
     --light: #F1F8FF;
     --dark: #0F172B;
 }
@@ -11,7 +11,7 @@
 }
 
 .logo-style{
-    color:#ff6c00;
+    color:#f5b500;
 }
 .fw-medium {
     font-weight: 600 !important;

@@ -55,13 +55,13 @@ function burgers() {
          <div id="tab-1" class="tab-pane fade show p-0 active">
            <div class="row g-4">
              <SubMenuItem
-               title="Burger"
+               title="Cheese Burger"
                image="/images/sous-menu/burger1.jpeg"
                price="$115"
                description="Ipsum ipsum clita erat amet dolor justo diam"
              />
              <SubMenuItem
-               title="Burger"
+               title="Chicken Burger"
                image="/images/sous-menu/burger2.jpeg"
                price="$115"
                description="Ipsum ipsum clita erat amet dolor justo diam"

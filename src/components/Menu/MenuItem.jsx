@@ -1,19 +1,19 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React from 'react';
+import { Link } from 'react-router-dom';
 
-function MenuItem({category,image,link}) {
+function MenuItem({ category, image, link }) {
   return (
-    <div class="menu-item col-md-4 mb-5">
-    <div class="image-wrapper">
-      <img src={image} alt="Plate 1" />
-      <div class="overlay">
-        <Link to={link}>
-          <h2>{category}</h2>
-        </Link>
+    <div className="menu-item col-md-4 col-sm-12 mb-5">
+      <div className="image-wrapper">
+        <img src={image} alt="Plate" className="img-fluid" />
+        <div className="overlay">
+          <Link to={link} className="link">
+            <h2 className="category">{category}</h2>
+          </Link>
+        </div>
       </div>
     </div>
-  </div>
-  )
+  );
 }
 
-export default MenuItem
+export default MenuItem;

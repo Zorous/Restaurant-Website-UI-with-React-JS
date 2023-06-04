@@ -8,6 +8,7 @@ import Pizza from "./static/sub-menu/Pizza";
 import Burgers from "./static/sub-menu/Burgers";
 import Boissons from "./static/sub-menu/Boissons";
 import About from "./pages/About";
+import Service from "./pages/Service";
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/menu" element={<Menu />} />
+          <Route path="/service" element={<Service />} />
           <Route path="/menu/pizza" element={<Pizza />} />
           <Route path="/menu/burgers" element={<Burgers />} />
           <Route path="/menu/boissons" element={<Boissons />} />
