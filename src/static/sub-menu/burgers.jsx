@@ -1,6 +1,7 @@
 import React from 'react'
 import Hero from '../../components/Hero'
-import SubMenuItem from '../../components/Menu/SubMenuItem'
+import SubMenuItem from '../../components/Menu/SubMenuItem';
+import FixedMenuItem from '../../components/Menu/FixedMenuItem';
 
 function burgers() {
   return (
@@ -67,38 +68,20 @@ function burgers() {
                description="Ipsum ipsum clita erat amet dolor justo diam"
              />
              <SubMenuItem
-               title="Burger"
+               title="Kebab Burger"
                image="/images/sous-menu/burger3.jpeg"
                price="$115"
                description="Ipsum ipsum clita erat amet dolor justo diam"
              />
              <SubMenuItem
-               title="Burger"
+               title="Fish Burger"
                image="/images/sous-menu/burger4.jpeg"
                price="$115"
                description="Ipsum ipsum clita erat amet dolor justo diam"
              />
              <SubMenuItem
-               title="Burger"
+               title="Orientale Burger"
                image="/images/sous-menu/burger5.jpeg"
-               price="$115"
-               description="Ipsum ipsum clita erat amet dolor justo diam"
-             />
-             <SubMenuItem
-               title="Burger"
-               image="/images/sous-menu/burger6.jpeg"
-               price="$115"
-               description="Ipsum ipsum clita erat amet dolor justo diam"
-             />
-             <SubMenuItem
-               title="Burger"
-               image="/images/sous-menu/burgger7.jpeg"
-               price="$115"
-               description="Ipsum ipsum clita erat amet dolor justo diam"
-             />
-             <SubMenuItem
-               title="Burger"
-               image="/images/sous-menu/burger7.jpeg"
                price="$115"
                description="Ipsum ipsum clita erat amet dolor justo diam"
              />
@@ -136,7 +119,7 @@ function burgers() {
        </div>
    </div>
  </div>
-
+<FixedMenuItem />
     </div>
   )
 }

@@ -2,6 +2,7 @@ import React from "react";
 import MenuItem from "../components/Menu/MenuItem";
 import MostPopularItem from "../components/Menu/MostPopularItem";
 import { Link } from "react-router-dom";
+import MenuItems from "../components/MenuItems";
 
 function Menu() {
   return (
@@ -19,9 +20,20 @@ function Menu() {
         </nav>
     </div>
 </div>
-      <div class="container-xxl py-5">
-      
+<div className="text-center mt-5">
+<h1 className="cool-title ff-secondary text-primary m-5">
+  Découvrez Notre Menu
+</h1>
+<p className="description m-5">
+  Explorez notre délicieux menu rempli de saveurs exotiques et de plats
+  authentiques préparés avec amour et passion. Découvrez une expérience
+  culinaire exceptionnelle qui vous transportera vers les merveilles de
+  la cuisine orientale.
+</p>
+</div>
+<MenuItems />
 
+      <div class="container-xxl py-5">
         <div class="container mt-5">
           <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
             <h5 class="section-title ff-secondary text-center text-primary fw-normal">
