@@ -6,13 +6,27 @@ const sauces = [
     {"title": "sauce 1",
     "image": "/images/sous-menu/burger5.jpeg"
 },
-    {"title": "sauce 1",
+    {"title": "sauce 2",
     "image": "/images/sous-menu/burger5.jpeg"
 },
-    {"title": "sauce 1",
+    {"title": "sauce 3",
     "image": "/images/sous-menu/burger5.jpeg"
 },
-    {"title": "sauce 1",
+    {"title": "sauce 4",
+    "image": "/images/sous-menu/burger5.jpeg"
+},
+];
+const supplements = [
+    {"title": "supplement 1",
+    "image": "/images/sous-menu/burger5.jpeg"
+},
+    {"title": "supplement 2",
+    "image": "/images/sous-menu/burger5.jpeg"
+},
+    {"title": "supplement 3",
+    "image": "/images/sous-menu/burger5.jpeg"
+},
+    {"title": "supplement 4",
     "image": "/images/sous-menu/burger5.jpeg"
 },
 ];
@@ -27,7 +41,7 @@ function FixedMenuItem() {
     </h5>
   </div>
   <div className="row g-4">
-  {sauces?.map((item)=>(<Supplement title={item.title} image={item.image} />))}
+  {supplements?.map((item)=>(<Supplement title={item.title} image={item.image} />))}
       {/* Repeat the above code block for the other team members */}
     </div></div>
 
