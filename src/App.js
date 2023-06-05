@@ -4,7 +4,7 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import Menu from "./pages/Menu";
-import Pizza from "./static/sub-menu/Pizza";
+import Pizza from "./static/sub-menu/pizza";
 import Burgers from "./static/sub-menu/Burgers";
 import Boissons from "./static/sub-menu/Boissons";
 import About from "./pages/About";

@@ -102,4 +102,4 @@ function Pizza() {
   )
 }
 
-export default Pizza
+export default Pizza;
