@@ -4,9 +4,11 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import Menu from "./pages/Menu";
+
 import Pizza from "./static/sub-menu/pizza";
-import Burgers from "./static/sub-menu/Burgers";
-import Boissons from "./static/sub-menu/Boissons";
+import Burgers from "./static/sub-menu/burgers";
+import Boissons from "./static/sub-menu/boissons";
+
 import About from "./pages/About";
 import Service from "./pages/Service";
 
